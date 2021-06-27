@@ -17,8 +17,8 @@ O Projeto TesteSoft mostra também como é possivel configurar/orquestrar a inst
     
 - ### Executando a Aplicação de que permite Consultar a Taxa de Juros:
   - Testando a API de Link do Código Fonte através do seu navegador pelo Swagger(Recomendado) usando o link: http://localhost:5000/swagger/index.html ou de qualquer programa como insominia, postman e outros usando da seguinte url: http://localhost:5000/calculaJuros.
-- ### Executando a Aplicação de que permite efetuar o Calculo e Exibição do Link de onde está hospedado estes projetos de exemplo:
-  - Testando a API de Calculo através do seu navegador pelo Swagger(Recomendado) usando o link: http://localhost:7000/swagger/index.html ou de qualquer programa como insominia, postman e outros usando da seguinte url: http://localhost:7000/calculajuros.
+- ### Executando a Aplicação de que permite efetuar o Cálculo e Exibição do Link de onde está hospedado estes projetos de exemplo:
+  - Testando a API de Cálculo através do seu navegador pelo Swagger(Recomendado) usando o link: http://localhost:7000/swagger/index.html ou de qualquer programa como insominia, postman e outros usando da seguinte url: http://localhost:7000/calculajuros.
   - Testando a API de Link do Código Fonte através do seu navegador pelo Swagger(Recomendado) usando o link: http://localhost:7000/swagger/index.html ou de qualquer programa como insominia, postman e outros usando da seguinte url: http://localhost:7000/showmethecode.
 
 
@@ -32,7 +32,7 @@ Para saber mais sobre como configurar seu ambiente, visite o Guia de [download](
   - No visual Studio, com a solução do projeto "TesteSoft.Taxa" aberto, efetuar um Build.
   - No Visual Studio, com a solução do projeto "TesteSoft.Taxa" aberto, selecionar para executar na opção de self-host(TesteSoft.Taxa).
   - Executar o projeto.
-- ### Executando a Aplicação API Calculo de Juros:
+- ### Executando a Aplicação API Cálculo de Juros:
   - No visual Studio, com a solução do projeto "TesteSoft.Calculo" aberto, efetuar um Build.
   - No Visual Studio, com a solução do projeto "TesteSoft.Calculo" aberto, selecionar para executar na opção de self-host(TesteSoft.Calculo).
 
