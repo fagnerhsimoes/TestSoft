@@ -9,7 +9,7 @@ services:
     image: taxaapi
     hostname: taxaapi 
     build:
-      context: "./TesteSoft.Taxa/"
+      context: "./"
       dockerfile: DockerfileApiTaxa
     container_name: taxaapi
     networks:
@@ -24,7 +24,7 @@ services:
     image: calculoapi
     hostname: calculoapi 
     build:
-      context: "./TesteSoft.Calculo/"
+      context: "./"
       dockerfile: DockerfileApiCalculo
     container_name: calculoapi
     networks:
