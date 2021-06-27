@@ -1,19 +1,25 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
-  <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+		<UserSecretsId>c601b092-22c7-4cb3-a16e-064c14cee4cd</UserSecretsId>
+		<DockerComposeProjectPath>..\..\docker-compose.dcproj</DockerComposeProjectPath>
+		<DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+		<DockerfileContext>..\..</DockerfileContext>
+		<IsServiceFabricServiceProject>True</IsServiceFabricServiceProject>
+
+		<RootNamespace>TesteSoft.Taxa</RootNamespace>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<NoWarn>$(NoWarn);1591</NoWarn>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+	  <DocumentationFile />
+	</PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.1.4" />
     <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="6.1.4" />
   </ItemGroup>
-
-	<PropertyGroup>
-		<TargetFramework>netcoreapp3.1</TargetFramework>
-		<RootNamespace>TesteSoft.Taxa</RootNamespace>
-		<GenerateDocumentationFile>true</GenerateDocumentationFile>
-		<NoWarn>$(NoWarn);1591</NoWarn>
-	</PropertyGroup>
 	
 </Project>
