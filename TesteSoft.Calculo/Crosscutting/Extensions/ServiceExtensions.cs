@@ -36,7 +36,7 @@ namespace TesteSoft.Calculo.Crosscutting.Extensions
                     {
                         Name = "Fagner Simões",
                         Email = "fagnerhsimoes@gmail.com",
-                        Url = new Uri("https://github.com/fagnerhsimoes/ISys")
+                        Url = new Uri(Constants.Urls.UrlApi)
                     }
                 });
                 c.AddSecurityDefinition("API Key", new OpenApiSecurityScheme

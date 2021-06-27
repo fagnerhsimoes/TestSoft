@@ -11,5 +11,10 @@
         {
             public const string CorsPolicy = "CorsPolicy";
         }
+
+        public static class Urls
+        {
+            public const string UrlApi = "https://github.com/fagnerhsimoes/TestSoft";
+        }
     }
 }
