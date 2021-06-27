@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TesteSoft.Calculo</name>
+    </assembly>
+    <members>
+        <member name="M:TesteSoft.Calculo.Common.Helpers.HttpClientHelper.HandleResponse(System.Net.Http.HttpResponseMessage)">
+            <summary>
+            Verifica por erros na resposta HTTP.
+            </summary>
+            <param name="response">Resposta de requisição HTTP</param>
+        </member>
+        <member name="M:TesteSoft.Calculo.Controllers.CalculoJurosController.ExecuteCalculoJuros(TesteSoft.Calculo.Services.DTO.CalculoDto,System.Threading.CancellationToken)">
+            <summary>
+            Retorna o valor total com juros após o cálculo.
+            </summary>
+            <param name="cancellationToken">Token de cancelamento da requisição</param>
+            <returns>Resultado do Cálculo</returns>
+            <response code="200">Cálculo realizado com sucesso.</response>
+            <response code="408">Requisição abortada.</response>
+            <response code="500">Não foi possível efetuar o cálculo de juros.</response>
+        </member>
+    </members>
+</doc>

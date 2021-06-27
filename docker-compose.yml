@@ -1,0 +1,39 @@
+version: '3.7'
+
+networks: 
+  api-network:
+    driver: bridge
+
+services: 
+  taxaapi:
+    image: taxaapi
+    hostname: taxaapi 
+    build:
+      context: "./TesteSoft.Taxa/"
+      dockerfile: DockerfileApiTaxa
+    container_name: taxaapi
+    networks:
+      - api-network
+    restart: always
+    environment:  
+      - ASPNETCORE_ENVIRONMENT=Development  
+    ports:
+      - "5000:80"
+      - "5001:443"
+  calculoapi:
+    image: calculoapi
+    hostname: calculoapi 
+    build:
+      context: "./TesteSoft.Calculo/"
+      dockerfile: DockerfileApiCalculo
+    container_name: calculoapi
+    networks:
+      - api-network
+    restart: always
+    environment:  
+      - ASPNETCORE_ENVIRONMENT=Development  
+    depends_on:
+      - taxaapi
+    ports:
+      - "7000:80"
+      - "7001:443"

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteSoft.Calculo", "TesteSoft.Calculo.csproj", "{C63945C0-A160-4372-A85A-32E95FBA8100}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C63945C0-A160-4372-A85A-32E95FBA8100}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C63945C0-A160-4372-A85A-32E95FBA8100}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C63945C0-A160-4372-A85A-32E95FBA8100}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C63945C0-A160-4372-A85A-32E95FBA8100}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD1EBA3A-8F17-47F7-A85B-B25643E08400}
+	EndGlobalSection
+EndGlobal
